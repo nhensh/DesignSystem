@@ -1,0 +1,22 @@
+{
+  "name": "@wherever-works/library-react-native",
+  "type": "module",
+  "version": "0.0.1",
+  "files": [
+    "package",
+    "src"
+  ],
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "svelte": "./src/index.ts",
+  "exports": {
+    "./src": {
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    },
+    ".": {
+      "import": "./src/index.ts",
+      "require": "./src/index.ts"
+    }
+  }
+}

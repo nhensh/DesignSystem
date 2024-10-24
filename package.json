@@ -1,0 +1,11 @@
+{
+  "name": "@wherever-works/mono-repo",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Wherever Works mono-repo",
+  "workspaces": [
+    "library/packages/*",
+    "library",
+    "apps/*"
+  ]
+}
